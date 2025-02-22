@@ -35,9 +35,9 @@ function App() {
           {/* <Route index element={<HomePage />} /> */}
           <Route path='about' element={<AboutUsPage />} />
           <Route path='products' element={<ProductPage />} />
-          <Route path='contacts' element={<ContactPage />} />
+          <Route path='contact' element={<ContactPage />} />
           <Route path='video' element={<VideoPage />} />
-          <Route path='products/:productId' element={<ProductDetailePage />} />
+          <Route path='products/:categoryName/:productId' element={<ProductDetailePage />} />
           <Route path='*' element={<ErrorPage />} />
         </Route>
       </Routes>

@@ -1,16 +1,17 @@
 import { useParams } from "react-router-dom";
-import { CapsuleHouseDetail, ProductDetails } from "../assets/components/ProductDetails/components"
+import RelatedProducts, { CapsuleHouseDetail, ProductDetails } from "../assets/components/ProductDetails/components"
 
 function ProductDetailePage() {
 
 
-    const { productId } = useParams();
+    const { productId , categoryName } = useParams();
 
 
   return (
    <>
    <CapsuleHouseDetail/>
    <ProductDetails/>
+   <RelatedProducts/>
    </>
   )
 }

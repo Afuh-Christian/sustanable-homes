@@ -1,7 +1,9 @@
 import { Mail, Phone, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import { products } from '../../Pages/AboutUsPage';
+import { NavLink } from 'react-router-dom';
 
+const IsActionEvaluate = ({ isActive }) => (isActive ? 'text-blue-700' : 'text-gray-800"')
 
 export default function HeaderComponent() {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
@@ -26,15 +28,36 @@ export default function HeaderComponent() {
           <span className="text-sm text-gray-600">SMART HOUSE INDUSTRY LEADER</span>
         </div>
         <ul className="hidden md:flex gap-6 text-gray-800">
-          <li className="hover:text-blue-700 cursor-pointer">HOME</li>
-          <li className="hover:text-blue-700 cursor-pointer">ABOUT US</li>
+            {[{to : "/" , page : "Home" } , {to: "about" , page:"ABOUT US"}]
+            .map(e => (
+              <li key={e} className="hover:text-blue-700 cursor-pointer">
+  <NavLink
+    to={e.to}
+    className={(isActive) => IsActionEvaluate(isActive)}
+  >
+    {e.page}
+  </NavLink>
+</li>
+            ))}
+        
           <li
             className="relative hover:text-blue-700 cursor-pointer"
             onMouseEnter={() => setIsProductsOpen(true)}
             onMouseLeave={() => setIsProductsOpen(false)}
           >
             <div className="flex items-center gap-1">
-              PRODUCTS <ChevronDown size={16} />
+              
+            <NavLink
+    to="products"
+    className={(isActive) => IsActionEvaluate(isActive)}
+  >
+ PRODUCTS <ChevronDown size={16} />
+  </NavLink>
+
+             
+
+
+
             </div>
             {isProductsOpen && (
               <ul className="absolute top-full w-36 left-0 bg-white shadow-lg p-2 rounded-md">
@@ -44,11 +67,24 @@ export default function HeaderComponent() {
               </ul>
             )}
           </li>
-          <li className="hover:text-blue-700 cursor-pointer">VIDEO</li>
-          <li className="hover:text-blue-700 cursor-pointer">BLOG</li>
-          <li className="hover:text-blue-700 cursor-pointer">FACTORY</li>
-          <li className="hover:text-blue-700 cursor-pointer">FAQ</li>
-          <li className="hover:text-blue-700 cursor-pointer">CONTACT</li>
+          {[
+          {to: "video" , page:"VIDEO"},
+          {to: "blog" , page:"BLOG"},
+          {to: "factory" , page:"FACTORY"},
+          {to: "faq" , page:"FAQ"},
+          {to: "contact" , page:"CONTACT"},
+        ]
+            .map(e => (
+            <li key={e} className="hover:text-blue-700 cursor-pointer">
+  <NavLink
+    to={e.to}
+    className={(isActive) => IsActionEvaluate(isActive)}
+  >
+    {e.page}
+  </NavLink>
+</li>
+            ))}
+        
         </ul>
       </nav>
     </header>

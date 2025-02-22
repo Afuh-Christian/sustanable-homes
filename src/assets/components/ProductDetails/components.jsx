@@ -249,3 +249,38 @@ export const ProductDetails = () => {
   );
 };
 
+
+export const RelatedProducts = () => {
+    const products = [
+      {
+        id: 1,
+        name: "VOLFERDA Capsule House Model D8",
+        image: "https://example.com/image-d8.jpg",
+      },
+      {
+        id: 2,
+        name: "VOLFERDA Capsule House Model E8",
+        image: "https://example.com/image-e8.jpg",
+      },
+    ];
+  
+    return (
+      <div className="p-8">
+        <h2 className="text-2xl font-semibold mb-6">RELATED PRODUCTS</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {products.map((product) => (
+            <div key={product.id} className="text-center">
+              <img
+                src={product.image}
+                alt={product.name}
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <p className="mt-4 text-lg">{product.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  };
+  
+  export default RelatedProducts;
