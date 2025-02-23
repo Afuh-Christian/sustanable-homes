@@ -44,7 +44,6 @@ function App() {
           <Route path='blog' element={<BlogPage />} />
           <Route path='blog/:blockName' element={<BlogPostDetailPage />} />
           <Route path='video' element={<VideoPage />} />
-          <Route path='products' element={<ProductPage />} />
           <Route path='products/:categoryName' element={<ProductPage />} />
           <Route path='products/:categoryName/:productId' element={<ProductDetailePage />} />
           <Route path='*' element={<ErrorPage />} />

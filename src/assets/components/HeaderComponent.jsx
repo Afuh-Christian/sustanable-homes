@@ -48,7 +48,7 @@ export default function HeaderComponent() {
             <div className="flex items-center gap-1">
               
             <NavLink
-    to="products"
+    to={`products/${null}`}
     className={(isActive) => IsActionEvaluate(isActive)}
   >
  PRODUCTS 

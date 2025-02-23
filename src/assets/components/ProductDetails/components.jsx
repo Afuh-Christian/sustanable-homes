@@ -1,13 +1,15 @@
+/* eslint-disable react/prop-types */
 
 
-import { useState } from 'react';
+import {  useState } from 'react';
+// import products from "../Data/productData.json"
 
 
 export const ProductDetails = () => {
   return (
-    <div className="max-w-4xl mx-auto p-6 space-y-8">
+    <div className="px-52 mx-auto space-y-8">
       <h1 className="text-2xl font-semibold">Product Details</h1>
-
+     <hr/>
       {/* Details Section */}
       <section>
         <h2 className="text-xl text-blue-600 font-semibold mb-4">1. Details</h2>
@@ -121,15 +123,40 @@ export const ProductDetails = () => {
           </p>
         </div>
       </section>
+      <div className=" mx-auto">
+      <h2 className="text-xl font-semibold text-blue-700 mb-4">3. Payment</h2>
+      
+      <div className="space-y-8">
+        <div>
+          <h3 className="text-md font-semibold text-gray-800 mb-3">
+            Payment methods
+          </h3>
+          <p className="text-gray-600">
+            T/T payment
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-md font-semibold text-gray-800 mb-3">
+            Payment procedure
+          </h3>
+          <ul className="text-gray-600 space-y-2">
+            <li>50% deposit before producing</li>
+            <li>50% balance befor delivery</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
 
 
 
- export const CapsuleHouseDetail = () => {
+ export const CapsuleHouseDetail = ({product}) => {
   const [currentImage, setCurrentImage] = useState(0);
   
+
   const images = [
     '/api/placeholder/800/600',
     '/api/placeholder/800/600',
@@ -139,7 +166,7 @@ export const ProductDetails = () => {
   ];
 
   const nextImage = () => {
-    setCurrentImage((prev) => (prev + 1) % images.length);
+    setCurrentImage((prev) => (prev + 1) % product.images.length);
   };
 
   const prevImage = () => {

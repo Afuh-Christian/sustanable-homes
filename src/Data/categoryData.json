@@ -1,0 +1,39 @@
+[
+    {
+      "id": "capsule-house",
+      "to": "/products/capsule-house",
+      "name": "Capsule House",
+      "description": "Provide a flexible and cost-effective solution"
+    },
+    {
+      "id": "apple-cabin",
+      "to": "/products/apple-cabin",
+      "name": "Apple Cabin",
+      "description": "Provide a flexible and cost-effective solution"
+    },
+    {
+      "id": "natural-house",
+      "to": "/products/natural-house",
+      "name": "Natural House",
+      "description": ""
+    },
+    {
+      "id": "dome-house",
+      "to": "/products/dome-house",
+      "name": "Dome House",
+      "description": "Dome House"
+    },
+    {
+      "id": "model-double",
+      "to": "/products/model-double",
+      "name": "Model Double",
+      "description": ""
+    },
+    {
+      "id": "silence-pods",
+      "to": "/products/silence-pods",
+      "name": "Silence Pods",
+      "description": ""
+    }
+  ]
+  

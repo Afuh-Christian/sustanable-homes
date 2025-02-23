@@ -1,0 +1,166 @@
+[
+    {
+        "parent" : "/products/capsule-house" , 
+        "to" : "capsule-house-model-e8" , 
+        "header" : {
+            "title" : "Capsule House Model E8" , 
+            "image" : "/capsule-house/v8/cap1.png" ,
+            "images": [
+                
+                  "/capsule-house/v8/cap1.png" , 
+                  "/capsule-house/v8/cap2.png" , 
+                  "/capsule-house/v8/cap3.png" , 
+                  "/capsule-house/v8/cap5.png" , 
+                  "/capsule-house/v8/cap4.png"    
+            ],
+            "props" : [
+                {
+                    "label" : "Beds" , 
+                    "value" : " 2"
+                } , 
+                {
+                    "label" : "Bath" , 
+                    "value" : "1"
+                } , 
+                {
+                    "label" : "Area" , 
+                    "value" : "36.8m²"
+                } , 
+                {
+                    "label" : "LxWxH" , 
+                    "value" : "11.5m x 3.2m x 3.2m"
+                } 
+            ]  , 
+            "config" : [
+                {
+                    "label" : "Standard configuration:" , 
+                    "value" : "finishing, shower room with artificial stone finish and partition, toilet, sink,smart mirror, sink cabinet, curtain mechanism, thermal insulation, waterproofing, wind protection, smart lock, internal and external lighting, electricity wiring, sewerage, water treatment."
+                },
+                {
+                    "label" : "Optional configuration:" , 
+                    "value" : "sofa, coffee table, TV cabinet, double bed, bedside table, refrigerator, TV,kitchen (lower and upper cabinets, sink, artificial stone countertop), hob.* E6 have 2 flloor plans, with balcony or without balcony."
+                } 
+            ]
+
+        } ,
+      
+        "youTube" : [
+            "https://youtu.be/b65u7dN68pQ" , 
+            "https://youtu.be/pJYi8FJlW7U"  ]
+
+    }, 
+
+
+
+
+
+
+    {
+        "parent" : "/products/capsule-house" , 
+        "to" : "capsule-house-model-e6" , 
+        "header" : {
+            "title" : "Capsule House Model E6" , 
+            "image" : "/capsule-house/v6/cap (1).png" ,
+            "images": [
+                
+                  "/capsule-house/v6/cap (1).png" , 
+                  "/capsule-house/v6/cap (2).png" , 
+                  "/capsule-house/v6/cap (3).png" , 
+                  "/capsule-house/v6/cap (4).png" , 
+                  "/capsule-house/v6/cap (5).png"    
+            ],
+            "props" : [
+                {
+                    "label" : "Beds" , 
+                    "value" : "1 or 2"
+                } , 
+                {
+                    "label" : "Bath" , 
+                    "value" : "1"
+                } , 
+                {
+                    "label" : "Area" , 
+                    "value" : "27.2m²"
+                } , 
+                {
+                    "label" : "LxWxH" , 
+                    "value" : "8.5m x 3.2m x 3.2m"
+                } 
+            ]  , 
+            "config" : [
+                {
+                    "label" : "Standard configuration:" , 
+                    "value" : "finishing, shower room with artificial stone finish and partition, toilet, sink,smart mirror, sink cabinet, curtain mechanism, thermal insulation, waterproofing, wind protection, smart lock, internal and external lighting, electricity wiring, sewerage, water treatment."
+                },
+                {
+                    "label" : "Optional configuration:" , 
+                    "value" : "sofa, coffee table, TV cabinet, double bed, bedside table, refrigerator, TV,kitchen (lower and upper cabinets, sink, artificial stone countertop), hob.* E6 have 2 flloor plans, with balcony or without balcony."
+                } 
+            ]
+
+        } ,
+        "designImages" : [
+            "/capsule-house/v6/design1.png" 
+        ] , 
+      
+        "youTube" : [
+   
+            "https://youtu.be/TNqqHv6nowc"
+        ]
+    },
+    {
+        "parent" : "/products/capsule-house" , 
+        "to" : "capsule-house-model-d8" , 
+        "header" : {
+            "title" : "Capsule House Model D8" , 
+            "image" : "/capsule-house/d8/cap (1).png" ,
+            "images": [
+                
+                  "/capsule-house/d8/cap (1).png" , 
+                  "/capsule-house/d8/cap (2).png" , 
+                  "/capsule-house/d8/cap (3).png" , 
+                  "/capsule-house/d8/cap (4).png" , 
+                  "/capsule-house/d8/cap (5).png"    
+            ],
+            "props" : [
+                {
+                    "label" : "Beds" , 
+                    "value" : "1"
+                } , 
+                {
+                    "label" : "Bath" , 
+                    "value" : "1"
+                } , 
+                {
+                    "label" : "Area" , 
+                    "value" : "47.6m²+27m²"
+                } , 
+                {
+                    "label" : "LxWxH" , 
+                    "value" : "F1:14m x 3.4m x 3.2m"
+                } ,
+                {
+                    "label" : "F2" , 
+                    "value" : "9m x 3m x 2.5m"
+                } 
+            ]  , 
+            "config" : [
+                {
+                    "label" : "Standard configuration:" , 
+                    "value" : "finishing, shower room with artificial stone finish and partition, toilet, sink,smart mirror, sink cabinet, curtain mechanism, thermal insulation, waterproofing, wind protection, smart lock, internal and external lighting, electricity wiring, sewerage, water treatment."
+                },
+                {
+                    "label" : "Optional configuration:" , 
+                    "value" : "sofa, coffee table, TV cabinet, double bed, bedside table, refrigerator, TV,kitchen (lower and upper cabinets, sink, artificial stone countertop), hob.* E6 have 2 flloor plans, with balcony or without balcony."
+                } 
+            ]
+
+        } 
+   
+    }
+]
+
+
+
+
+
