@@ -6,6 +6,7 @@ import AboutUsPage from './Pages/AboutUsPage'
 import ContactPage from './Pages/ContactPage'
 import ErrorPage from './Pages/ErrorPage'
 import FactoryPage from './Pages/FactoryPage'
+import FAQPage from './Pages/FAQPage'
 import HomePage from './Pages/HomePage'
 import ProductDetailePage from './Pages/ProductDetailePage'
 import ProductPage from './Pages/ProductPage'
@@ -37,6 +38,7 @@ function App() {
           <Route path='about' element={<AboutUsPage />} />
           <Route path='factory' element={<FactoryPage />} />
           <Route path='contact' element={<ContactPage />} />
+          <Route path='faq' element={<FAQPage />} />
           <Route path='video' element={<VideoPage />} />
           <Route path='products' element={<ProductPage />} />
           <Route path='products/:categoryName' element={<ProductPage />} />
