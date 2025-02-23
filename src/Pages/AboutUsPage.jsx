@@ -13,7 +13,6 @@ export   const products = [
 
 export function  CategoryComponent () {
 
-  const navigate = useNavigate() ;
   return  <div className="bg-white rounded-lg shadow p-6">
       <h2 className="text-blue-600 text-xl font-semibold mb-4">Products</h2>
       <ul className="space-y-3">
