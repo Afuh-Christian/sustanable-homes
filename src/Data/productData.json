@@ -43,6 +43,7 @@
             ]
 
         } ,
+        "product_details":true , 
       
         "youTube" : [
             "https://youtu.be/b65u7dN68pQ" , 
@@ -99,6 +100,7 @@
             ]
 
         } ,
+        "product_details":true , 
         "designImages" : [
             "/capsule-house/v6/design1.png" 
         ] , 
@@ -108,6 +110,8 @@
             "https://youtu.be/TNqqHv6nowc"
         ]
     },
+
+
     {
         "parent" : "/products/capsule-house" , 
         "to" : "capsule-house-model-d8" , 
@@ -154,10 +158,598 @@
                     "value" : "sofa, coffee table, TV cabinet, double bed, bedside table, refrigerator, TV,kitchen (lower and upper cabinets, sink, artificial stone countertop), hob.* E6 have 2 flloor plans, with balcony or without balcony."
                 } 
             ]
+            
 
-        } 
+        } ,
+        "product_details":true 
+        
    
-    }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "parent" : "/products/apple-cabin" , 
+        "to" : "apple-cabin-model-a1" , 
+        "header" : {
+            "title" : "Apple Cabin Model A1" , 
+            "image" : "/apple-cabin/a1/cap (1).png" ,
+            "images": [
+                
+                  "/apple-cabin/a1/cap (1).png" , 
+                  "/apple-cabin/a1/cap (2).png" , 
+                  "/apple-cabin/a1/cap (3).png" , 
+                  "/apple-cabin/a1/cap (4).png" , 
+                  "/apple-cabin/a1/cap (5).png"    
+            ],
+            "props" : [
+                {
+                    "label" : "A1 5.8m:" , 
+                    "value" : "Beds: 1, Bath:1, Area: 13m², LxWxH: 5.8m x 2.25m x 2.45m"
+                } , 
+                {
+                    "label" : "A1 8.5m:" , 
+                    "value" : " Beds: 1, Bath:1, Area: 19m², LxWxH: 8.5m x 2.25m x 2.45m"
+                } ,
+                {
+                    "label" : " A1 11.5m:" , 
+                    "value" : " Beds: 2, Bath:1, Area: 26m², LxWxH: 11.5m x 2.25m x 2.45m"
+                } 
+             
+            ]  , 
+            "config" : [
+                {
+                    "label" : "Standard configuration:" , 
+                    "value" : "                        Fine finishing, curtain mechanism, thermal insulation, waterproofing, wind protection,    smart lock, internal and external lighting, electricity wiring, sewerage, water treatment."
+                },
+                {
+                    "label" : "Optional configuration:" , 
+                    "value" : "    kitchen (induction cooker,lower and upper cabinets, sink, artificial stone countertop),    bathroom (toilet, sink, smart mirror, sink cabinet, sofa, coffee table, TV cabinet, double    bed, bedside table, refrigerator, TV."
+                } 
+            ]
+
+        },
+        "designImages" : [
+            "/apple-cabin/v6/design1.png" 
+        ] , 
+        "product_details":true , 
+        "youTube" : [
+            "https://youtu.be/ulXR0zi0Y2k"
+        ] 
+    } , 
+
+
+
+
+  {
+        "parent" : "/products/apple-cabin" , 
+        "to" : "apple-cabin-model-a2" , 
+        "header" : {
+            "title" : "Apple Cabin Model A2" , 
+            "subTitle" : "Model A2 have 3 floor plans." , 
+            "image" : "/apple-cabin/a2/cap (1).png" ,
+            "images": [
+                
+                  "/apple-cabin/a2/cap (1).png" , 
+                  "/apple-cabin/a2/cap (2).png" , 
+                  "/apple-cabin/a2/cap (3).png" , 
+                  "/apple-cabin/a2/cap (4).png" , 
+                  "/apple-cabin/a2/cap (5).png"    
+            ],
+            "props" : [
+                {
+                    "label" : "A2 5.8m:" , 
+                    "value" : "Beds: 1, Bath:1, Area: 17.4m², LxWxH: 5.8m x 3m x 3.2m"
+                } , 
+                {
+                    "label" : "A2 8.5m:" , 
+                    "value" : "Beds: 1, Bath:1, Area: 25.5m², LxWxH: 8.5m x 3m x 3.2m"
+                } ,
+                {
+                    "label" : "A2 11.5m:" , 
+                    "value" : "Beds: 2, Bath:1, Area: 34.5m², LxWxH: 11.5m x 3m x 3.2m"
+                }
+             
+             
+            ]  , 
+            "config" : [
+                {
+                    "label" : "Standard configuration:" , 
+                    "value" : "                        Fine finishing, curtain mechanism, thermal insulation, waterproofing, wind protection,    smart lock, internal and external lighting, electricity wiring, sewerage, water treatment."
+                },
+                {
+                    "label" : "Optional configuration:" , 
+                    "value" : "    kitchen (induction cooker,lower and upper cabinets, sink, artificial stone countertop),    bathroom (toilet, sink, smart mirror, sink cabinet, sofa, coffee table, TV cabinet, double    bed, bedside table, refrigerator, TV."
+                } 
+            ]
+
+        },
+        "designImages" : [
+            "/apple-cabin/a2/design1.png" 
+        ] , 
+        "product_details":true , 
+        "youTube" : [
+            "https://youtu.be/tW62-7jaQME"
+        ] 
+
+   
+    }  ,
+
+  {
+        "parent" : "/products/apple-cabin" , 
+        "to" : "apple-cabin-model-qq" , 
+        "header" : {
+            "title" : "Apple Cabin Model QQ" , 
+            "image" : "/apple-cabin/qq/cap (1).png" ,
+            "images": [
+                
+                  "/apple-cabin/qq/cap (1).png" , 
+                  "/apple-cabin/qq/cap (2).png" , 
+                  "/apple-cabin/qq/cap (3).png" , 
+                  "/apple-cabin/qq/cap (4).png" , 
+                  "/apple-cabin/qq/cap (5).png"    
+            ],
+            "props" : [
+                {
+                    "label" : "A2 5.8m:" , 
+                    "value" : "Beds: 1, Bath:1, Area: 17.4m², LxWxH: 5.8m x 3m x 3.2m"
+                } , 
+                {
+                    "label" : "A2 8.5m:" , 
+                    "value" : "Beds: 1, Bath:1, Area: 25.5m², LxWxH: 8.5m x 3m x 3.2m"
+                } ,
+                {
+                    "label" : "A2 11.5m:" , 
+                    "value" : "Beds: 2, Bath:1, Area: 34.5m², LxWxH: 11.5m x 3m x 3.2m"
+                }
+             
+             
+            ]  , 
+            "config" : [
+                {
+                    "label" : "Standard configuration:" , 
+                    "value" : "                        Fine finishing, curtain mechanism, thermal insulation, waterproofing, wind protection,    smart lock, internal and external lighting, electricity wiring, sewerage, water treatment."
+                },
+                {
+                    "label" : "Optional configuration:" , 
+                    "value" : "   bathroom (toilet, sink, smart mirror, sink), cabinet, sofa, coffee table, TV cabinet, double bed, bedside table, refrigerator, TV."
+                } 
+            ]
+
+        }, 
+        "product_details":true 
+
+   
+    }   , 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+        "parent" : "/products/natural-house" , 
+        "to" : "natural-house-n1" , 
+        "header" : {
+            "title" : "Natural House N1" , 
+            "image" : "/natural-house/n1/cap (1).png" ,
+            "images": [
+                
+                  "/natural-house/n1/cap (1).png" , 
+                  "/natural-house/n1/cap (2).png" , 
+                  "/natural-house/n1/cap (3).png" , 
+                  "/natural-house/n1/cap (4).png" 
+                            ],
+            "props" : [
+                {
+                    "label" : "Beds" , 
+                    "value" : "1"
+                } , 
+                {
+                    "label" : "Bath" , 
+                    "value" : "1"
+                } , 
+                {
+                    "label" : "Area" , 
+                    "value" : "20.16m²"
+                } , 
+                {
+                    "label" : "LxWxH" , 
+                    "value" : "6.3m+1.8m (balcony) *3.2m*3.25m"
+                } 
+                
+            ]  , 
+            "config" : [
+                {
+                    "label" : "Standard configuration:" , 
+                    "value" : " Fine finishing, curtain mechanism, thermal insulation, waterproofing, wind protection,    smart lock, internal and external lighting, electricity wiring, sewerage, water treatment."
+                },
+                {
+                    "label" : "Optional configuration:" , 
+                    "value" : " sofa, coffee table, TV cabinet, double bed, bedside table, refrigerator, TV, kitchen (lower    and upper cabinets, sink, artificial stone countertop), hob.    * N1 have 2 floor plans, Standard & Plus."
+                } 
+            ]
+
+        } ,   "product_details":false 
+
+   
+    } ,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+        "parent" : "/products/silence-pods" , 
+        "to" : "silence-pods-s" , 
+        "header" : {
+            "title" : "Silence Pod Model S" , 
+            "image" : "/silence-pods/s/cap (1).png" ,
+            "images": [
+                
+                  "/silence-pods/s/cap (1).png" , 
+                  "/silence-pods/s/cap (2).png" , 
+                  "/silence-pods/s/cap (3).png" , 
+                  "/silence-pods/s/cap (4).png" 
+                            ]
+        } ,   "product_details":false 
+    } ,
+  {
+        "parent" : "/products/silence-pods" , 
+        "to" : "silence-pods-m" , 
+        "header" : {
+            "title" : "Silence Pod Model M" , 
+            "image" : "/silence-pods/m/cap (1).png" ,
+            "images": [
+                
+                  "/silence-pods/m/cap (1).png" , 
+                  "/silence-pods/m/cap (2).png" , 
+                  "/silence-pods/m/cap (3).png" , 
+                  "/silence-pods/m/cap (5).png" , 
+                  "/silence-pods/m/cap (6).png" , 
+                  "/silence-pods/m/cap (7).png" , 
+                  "/silence-pods/m/cap (4).png" 
+                            ]
+        } ,   "product_details":false 
+    } ,
+  {
+        "parent" : "/products/silence-pods" , 
+        "to" : "silence-pods-x" , 
+        "header" : {
+            "title" : "Silence Pod Model X" , 
+            "image" : "/silence-pods/x/cap (1).png" ,
+            "images": [
+                
+                  "/silence-pods/x/cap (1).png" , 
+                  "/silence-pods/x/cap (2).png" , 
+                  "/silence-pods/x/cap (3).png" , 
+                  "/silence-pods/x/cap (4).png" ,
+                  "/silence-pods/x/cap (5).png" 
+                            ]
+        } ,   "product_details":false 
+    } ,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+        "parent" : "/products/dome-house" , 
+        "to" : "dome-house-c1" , 
+        "header" : {
+            "title" : "Dome House Model C1" , 
+            "image" : "/dome-house/c1/cap (1).png" ,
+            "images": [
+                
+                  "/dome-house/c1/cap (1).png" , 
+                  "/dome-house/c1/cap (2).png" , 
+                  "/dome-house/c1/cap (3).png" , 
+                  "/dome-house/c1/cap (4).png" ,
+                  "/dome-house/c1/cap (5).png" ,
+                  "/dome-house/c1/cap (6).png" 
+                            ] , 
+                            "config" : [
+                                {
+                                    "label" : "Product Details:" , 
+                                    "value" : "<p>Place of origin: China</p> <p>Brand Name: VOLFERDA</p> <p>Certification: CE, FCC</p> <p>Model Number: Dome House C1</p>"
+                                },
+                                {
+                                    "label" : "Payment and Shipping Terms:" , 
+                                    "value" : "<p>Minimum order quantity: 1 unit</p> <p>Packaging Details: Film wrapping, foam and wooden box</p> <p>Delivery time: 4-6 weeks after payment</p> <p>Payment terms: T/T in advance</p> <p>Supply capacity: 100-200 units per month</p>"
+                                } 
+                            ]
+        } ,    "product_details_table":"C1"  , 
+
+        "designImages" : [
+            "/dome-house/c1/d (4).png" , 
+            "/dome-house/c1/d (3).png" , 
+            "/dome-house/c1/d (2).png" , 
+            "/dome-house/c1/d (1).png"  
+        ] 
+
+    } ,
+  {
+        "parent" : "/products/dome-house" , 
+        "to" : "dome-house-c2" , 
+        "header" : {
+            "title" : "Dome House Model C2" , 
+            "image" : "/dome-house/c2/cap (1).png" ,
+            "images": [
+                
+                  "/dome-house/c2/cap (1).png" , 
+                  "/dome-house/c2/cap (2).png" , 
+                  "/dome-house/c2/cap (3).png" , 
+                  "/dome-house/c2/cap (4).png" ,
+                  "/dome-house/c2/cap (5).png" ,
+                  "/dome-house/c2/cap (6).png" 
+                            ] , 
+                            "config" : [
+                                {
+                                    "label" : "Product Details:" , 
+                                    "value" : "<p>Place of origin: China</p> <p>Brand Name: VOLFERDA</p> <p>Certification: CE, FCC</p> <p>Model Number: Dome House C2</p>"
+                                },
+                                {
+                                    "label" : "Payment and Shipping Terms:" , 
+                                    "value" : "<p>Minimum order quantity: 1 unit</p> <p>Packaging Details: Film wrapping, foam and wooden box</p> <p>Delivery time: 4-6 weeks after payment</p> <p>Payment terms: T/T in advance</p> <p>Supply capacity: 100-200 units per month</p>"
+                                } 
+                            ]
+        } ,   "product_details_table":"C2"  , 
+
+        "designImages" : [
+            "/dome-house/c1/d (4).png" , 
+            "/dome-house/c1/d (3).png" , 
+            "/dome-house/c1/d (2).png" , 
+            "/dome-house/c1/d (1).png"  
+        ] 
+
+    } ,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+        "parent" : "/products/dome-house" , 
+        "to" : "dome-house-c3" , 
+        "header" : {
+            "title" : "Dome House Model C3" , 
+            "image" : "/dome-house/c3/cap (1).png" ,
+            "images": [
+                
+                  "/dome-house/c3/cap (1).png" , 
+                  "/dome-house/c3/cap (2).png" , 
+                  "/dome-house/c3/cap (3).png" 
+                            ],
+                            "config" : [
+                                {
+                                    "label" : "Product Details:" , 
+                                    "value" : "<p>Place of origin: China</p> <p>Brand Name: VOLFERDA</p> <p>Certification: CE, FCC</p> <p>Model Number: Dome House C3</p>"
+                                },
+                                {
+                                    "label" : "Payment and Shipping Terms:" , 
+                                    "value" : "<p>Minimum order quantity: 1 unit</p> <p>Packaging Details: Film wrapping, foam and wooden box</p> <p>Delivery time: 4-6 weeks after payment</p> <p>Payment terms: T/T in advance</p> <p>Supply capacity: 100-200 units per month</p>"
+                                } 
+                            ]
+        } ,   "product_details":false 
+    } ,
+  {
+        "parent" : "/products/dome-house" , 
+        "to" : "dome-house-c4" , 
+        "header" : {
+            "title" : "Dome House Model C4" , 
+            "image" : "/dome-house/c4/cap (1).png" ,
+            "images": [
+                
+                  "/dome-house/c4/cap (1).png" 
+                            ],
+                            "config" : [
+                                {
+                                    "label" : "Product Details:" , 
+                                    "value" : "<p>Place of origin: China</p> <p>Brand Name: VOLFERDA</p> <p>Certification: CE, FCC</p> <p>Model Number: Dome House C4</p>"
+                                },
+                                {
+                                    "label" : "Payment and Shipping Terms:" , 
+                                    "value" : "<p>Minimum order quantity: 1 unit</p> <p>Packaging Details: Film wrapping, foam and wooden box</p> <p>Delivery time: 4-6 weeks after payment</p> <p>Payment terms: T/T in advance</p> <p>Supply capacity: 100-200 units per month</p>"
+                                } 
+                            ]
+        } ,   "product_details":false 
+    } ,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+        "parent" : "/products/model-double" , 
+        "to" : "model-double-d1" , 
+        "header" : {
+            "title" : "Dome House Model D1" , 
+            "image" : "/model-double/d1/cap (1).png" ,
+            "images": [
+                
+                  "/model-double/d1/cap (1).png" 
+                            ],
+            "html": "<div className=' mx-auto p-6 bg-white shadow-md rounded-lg'>      <h2 className='text-xl font-bold text-blue-600'>The first floor:</h2>      <p className='text-gray-700'>Beds: 1, Bath: 1, Area: 51.7m², LxWxH: 11.5m x 4.5m x 2.45m</p>      <h2 className='mt-4 text-xl font-bold text-blue-600'>The second floor:</h2>      <p className='text-gray-700'>Beds: 1, Bath: 1, Area: 25.8m², LxWxH: 11.5m x 2.25m x 2.45m</p>      <p className='text-gray-700'>Pavilion: Area: 25.8m², LxWxH: 11.5m x 2.25m x 2.45m</p>      <p className='text-gray-700'>Terrace: Area: 25.8m², LxW: 4m x 5m</p>      <h2 className='mt-6 text-lg font-semibold'>Standard configuration:</h2>      <p className='text-gray-700'>        Fine finishing, curtain mechanism, thermal insulation, waterproofing, wind protection,         smart lock, internal and external lighting, electricity wiring, sewerage, water treatment.      </p>      <h2 className='mt-6 text-lg font-semibold'>Optional configuration:</h2>      <p className='text-gray-700'>        Kitchen (induction cooker, lower and upper cabinets, sink, artificial stone countertop),         bathroom (toilet, sink, smart mirror, sink cabinet, sofa, coffee table, TV cabinet,         double bed, bedside table, refrigerator, TV).      </p>    </div>"} ,   
+        "product_details":true  ,
+        "html_list" : [
+            " <table class='w-full border-collapse border border-gray-300'>       <tbody>         <tr><td class='border border-gray-300 p-2 font-semibold'>Product Name</td><td class='border border-gray-300 p-2'>Apple Cabin</td></tr>         <tr><td class='border border-gray-300 p-2 font-semibold'>Model</td><td class='border border-gray-300 p-2'>VL-D4</td></tr>         <tr><td class='border border-gray-300 p-2 font-semibold'>Size</td><td class='border border-gray-300 p-2'>L5.8m * W2.25m * H2.45m, the two units are spliced into two floors, construction area: 139.9 sq ft, number of people: 4-8</td></tr>         <tr><td class='border border-gray-300 p-2 font-semibold'>Exterior Equipment</td><td class='border border-gray-300 p-2'>Galvanized steel frame; Fluorocarbon aluminum alloy shell; Insulated, waterproof and moisture-proof construction; Hollow tempered glass windows; Hollow tempered laminated glass skylight; Stainless steel side-hinged entry door.</td></tr>         <tr><td class='border border-gray-300 p-2 font-semibold'>Interior Equipment</td><td class='border border-gray-300 p-2'>Integrated modular ceiling & wall; Stone plastic composite floor; Privacy glass door for bathroom; Marble/tile floor for bathroom; Washstand / washbasin / bathroom mirror; Toilet / faucet / shower / floor drain; Whole house lighting system; Whole house plumbing & electrical system; Blackout curtains; Air conditioner; Bar table; Entryway cabinet.</td></tr>         <tr><td class='border border-gray-300 p-2 font-semibold'>Room Control Unit</td><td class='border border-gray-300 p-2'>Key card switch; Multiple scenario modes; Lights & curtains with intelligent integrated control; Intelligent voice control; Smart lock</td></tr>       </tbody>     </table>"
+        ]
+    } 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 ]
 
 

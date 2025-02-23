@@ -12,6 +12,7 @@ import FAQPage from './Pages/FAQPage'
 import HomePage from './Pages/HomePage'
 import ProductDetailePage from './Pages/ProductDetailePage'
 import ProductPage from './Pages/ProductPage'
+import VideoDetailPage from './Pages/VideoDetailPage'
 import VideoPage from './Pages/VideoPage'
 
 
@@ -44,6 +45,7 @@ function App() {
           <Route path='blog' element={<BlogPage />} />
           <Route path='blog/:blockName' element={<BlogPostDetailPage />} />
           <Route path='video' element={<VideoPage />} />
+          <Route path='video/:videoId' element={<VideoDetailPage />} />
           <Route path='products/:categoryName' element={<ProductPage />} />
           <Route path='products/:categoryName/:productId' element={<ProductDetailePage />} />
           <Route path='*' element={<ErrorPage />} />

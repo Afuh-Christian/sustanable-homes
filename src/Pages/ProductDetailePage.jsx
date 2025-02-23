@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import {YouTubeEmbedAdvanced } from "../assets/components/YouTube"
 import InquiryForm from "../assets/components/InquiryForm";
+import { ResponsiveTable } from "../assets/components/productsComponents";
 
 
 function ProductDetailePage() {
@@ -79,19 +80,32 @@ function ProductDetailePage() {
         <div className="space-y-6">
           <h1 className="text-3xl font-semibold">{product.header.title}</h1>
           
-          <div className="grid grid-cols-2 gap-4">
+         {product?.header?.props &&  <div className="grid grid-cols-2 gap-4">
             {product.header.props.map(e => (  <div key = {e}>
               <span className="font-semibold">{e.label + " : " }</span>
               <span>{e.value}</span>
               </div>))}
           </div>
+          }
+      {product?.header?.html && <div
+    dangerouslySetInnerHTML={{__html : product.header.html}}
+      >
+        </div>}
 
-        {product.header.config.map(e => (
+        {product?.header?.config && product?.header?.config.map(e => (
             <div key={e}>
             <h2 className="text-xl font-semibold mb-2">{e.label}</h2>
-            <p className="text-gray-700">
-              {e.value}
-            </p>
+            {e.value.startsWith("<") ? 
+            <div
+            className=" space-y-3 text-md"
+            dangerouslySetInnerHTML={{ __html: e.value }}
+            ></div>
+          : 
+          <p className="text-gray-700  text-md">
+          {e.value}
+        </p>
+          }
+         
           </div>
         ))}
 
@@ -109,7 +123,8 @@ function ProductDetailePage() {
 
 
    </div>
-   <ProductDetails/>
+   {product?.product_details && <ProductDetails/> } 
+   {product?.product_details_table && ResponsiveTable(product?.product_details_table) } 
 
 
 
@@ -118,7 +133,7 @@ function ProductDetailePage() {
                 key={e}
                 src={e}
                 alt={"No design image"}
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-full object-cover rounded-lg"
               /> )}
   </div>
 
@@ -141,15 +156,15 @@ function ProductDetailePage() {
    {/* <RelatedProducts/> */}
    <div className="p-8 px-52">
         <h2 className="text-xl font-semibold mb-6">RELATED PRODUCTS</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="flex flex-row ">
           {products.filter(e =>  e.parent === "/products/" + categoryName && e.to !== product.to).map((product) => (
             <div key={product}
             onClick={() => {navigate(`${product.parent}/${product.to}`)}}
-            className="text-center">
+            className="text-center w-70">
               <img
                 src={product.header.image}
                 alt={product.header.title}
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-full  object-cover rounded-lg"
               />
               <p className="mt-4 text-lg">{product.header.title}</p>
             </div>

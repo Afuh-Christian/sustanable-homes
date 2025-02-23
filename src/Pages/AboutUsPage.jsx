@@ -1,7 +1,7 @@
 import {  NavLink } from "react-router-dom";
 import { IsActionEvaluate } from "../assets/components/HeaderComponent";
-import { ContactComponent } from "../assets/components/ContactComponent";
 import { useState } from "react";
+import { ContactUsComponent } from "./BlogPage";
 
 export   const products = [
   { "to": "/products/capsule-house", "name": "Capsule House" },
@@ -58,7 +58,7 @@ const AboutUsPage = () => {
       <div className="space-y-8">
         {/* Products Section */}
         <CategoryComponent />
-      {/* <ContactComponent/> */}
+       <ContactUsComponent/>
       </div>
 
       {/* Main Content */}
@@ -135,7 +135,7 @@ const AboutUsPage = () => {
 
 
 
-      <div id="product-delivery-center">
+      <div id="product-delivery-center" className="mb-10">
       <div className="mt-8 space-y-7 text-gray-700">
         <div className="text-xl font-semibold">Product Deliver Center</div>
         <p>
