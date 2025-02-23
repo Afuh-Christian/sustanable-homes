@@ -1,13 +1,6 @@
 import { useState } from "react";
+import { CategoryComponent } from "./AboutUsPage";
 
-export   const products = [
-    'Capsule House',
-    'Apple Cabin',
-    'Natural House',
-    'Dome House',
-    'Model Double',
-    'Silence Pods'
-  ];
 
 
 const FactoryPage = () => {
@@ -19,16 +12,7 @@ const FactoryPage = () => {
         {/* Left Sidebar */}
         <div className="space-y-8">
           {/* Products Section */}
-          <div className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-blue-600 text-xl font-semibold mb-4">Products</h2>
-            <ul className="space-y-3">
-              {products.map((product, index) => (
-                <li key={index} className="text-gray-700 hover:text-blue-600 cursor-pointer">
-                  {product}
-                </li>
-              ))}
-            </ul>
-          </div>
+          <CategoryComponent />
 
           {/* Contact Us Section */}
           <div className="bg-white rounded-lg shadow p-6">

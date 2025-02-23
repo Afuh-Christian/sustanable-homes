@@ -1,9 +1,9 @@
-import { Mail, Phone, ChevronDown } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import { useState } from 'react';
 import { products } from '../../Pages/AboutUsPage';
 import { NavLink } from 'react-router-dom';
 
-const IsActionEvaluate = ({ isActive }) => (isActive ? 'text-blue-700' : 'text-gray-800"')
+export const IsActionEvaluate = ({ isActive }) => (isActive ? 'text-blue-700' : 'text-gray-800"')
 
 export default function HeaderComponent() {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
@@ -28,7 +28,7 @@ export default function HeaderComponent() {
           <span className="text-sm text-gray-600">SMART HOUSE INDUSTRY LEADER</span>
         </div>
         <ul className="hidden md:flex gap-6 text-gray-800">
-            {[{to : "/" , page : "Home" } , {to: "about" , page:"ABOUT US"}]
+            {[{to : "/" , page : "HOME" } , {to: "about" , page:"ABOUT US"}]
             .map(e => (
               <li key={e} className="hover:text-blue-700 cursor-pointer">
   <NavLink
@@ -51,18 +51,28 @@ export default function HeaderComponent() {
     to="products"
     className={(isActive) => IsActionEvaluate(isActive)}
   >
- PRODUCTS <ChevronDown size={16} />
+ PRODUCTS 
+ {/* <ChevronDown size={16} /> */}
   </NavLink>
-
-             
-
 
 
             </div>
             {isProductsOpen && (
               <ul className="absolute top-full w-36 left-0 bg-white shadow-lg p-2 rounded-md">
                 {products.map((subItem) => (
-                  <li key={subItem} className="p-2 text-gray-800 hover:text-blue-700 hover:bg-gray-100">{subItem}</li>
+                  <li key={subItem} className="p-2 text-gray-800 hover:text-blue-700 hover:bg-gray-100">
+                    
+                   
+                    <NavLink
+    to={subItem.to}
+    className={(isActive) => IsActionEvaluate(isActive)}
+  >
+    {subItem.name}
+  </NavLink>
+                    
+                    
+                    
+                    </li>
                 ))}
               </ul>
             )}

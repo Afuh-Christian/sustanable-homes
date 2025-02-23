@@ -35,10 +35,11 @@ function App() {
           {/* <Route index element={<ProductPage />} /> */}
           <Route index element={<HomePage />} />
           <Route path='about' element={<AboutUsPage />} />
-          <Route path='products' element={<ProductPage />} />
           <Route path='factory' element={<FactoryPage />} />
           <Route path='contact' element={<ContactPage />} />
           <Route path='video' element={<VideoPage />} />
+          <Route path='products' element={<ProductPage />} />
+          <Route path='products/:categoryName' element={<ProductPage />} />
           <Route path='products/:categoryName/:productId' element={<ProductDetailePage />} />
           <Route path='*' element={<ErrorPage />} />
         </Route>

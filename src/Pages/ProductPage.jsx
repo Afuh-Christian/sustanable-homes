@@ -1,3 +1,5 @@
+import { CategoryComponent } from "./AboutUsPage";
+
 const ProductPage = () => {
     const products = [
       { id: 1, name: "VOLFERDA Capsule House Model E6", image: "/images/e6.jpg" },
@@ -18,23 +20,7 @@ const ProductPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Sidebar */}
           <aside className="space-y-4">
-            <div className="p-4 border rounded-xl shadow-sm">
-              <h2 className="text-xl font-bold text-blue-700 mb-4">Products</h2>
-              <ul className="space-y-2">
-                {[
-                  "Capsule House",
-                  "Apple Cabin",
-                  "Natural House",
-                  "Dome House",
-                  "Model Double",
-                  "Silence Pods",
-                ].map((item) => (
-                  <li key={item} className="hover:text-blue-700 cursor-pointer">
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+                  <CategoryComponent />
   
             <div>
               <h2 className="text-xl font-semibold mb-4">Hot Products</h2>
