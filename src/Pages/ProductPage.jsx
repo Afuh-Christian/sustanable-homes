@@ -15,13 +15,13 @@ const ProductPage = () => {
     ];
   
     return (
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto py-4 px-36">
         <nav className="text-sm text-gray-500 mb-4">Home / All Products</nav>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Sidebar */}
           <aside className="space-y-4">
                   <CategoryComponent />
-  
+
             <div>
               <h2 className="text-xl font-semibold mb-4">Hot Products</h2>
               <div className="flex items-center gap-4">

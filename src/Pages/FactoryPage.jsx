@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { CategoryComponent } from "./AboutUsPage";
+import { ContactUsComponent } from "./BlogPage";
 
 
 
@@ -13,28 +14,7 @@ const FactoryPage = () => {
         <div className="space-y-8">
           {/* Products Section */}
           <CategoryComponent />
-
-          {/* Contact Us Section */}
-          <div className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
-            <p className="text-gray-700 mb-4">
-              Do you still have questions or would you like learn more about ZTHOUSE?
-            </p>
-            <div className="space-y-2">
-              <a href="tel:8618870949983" className="flex items-center text-blue-600 hover:text-blue-800">
-                <span className="mr-2">📱</span>
-                8618870949983
-              </a>
-              <a href="tel:+86-18566028140" className="flex items-center text-blue-600 hover:text-blue-800">
-                <span className="mr-2">📞</span>
-                +86-18566028140
-              </a>
-              <a href="mailto:info@volferda.com" className="flex items-center text-blue-600 hover:text-blue-800">
-                <span className="mr-2">✉️</span>
-                info@volferda.com
-              </a>
-            </div>
-          </div>
+          <ContactUsComponent />
         </div>
 
         {/* Main Content */}

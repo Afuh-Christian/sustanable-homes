@@ -3,6 +3,7 @@ import './App.css'
 import FooterComponent from './assets/components/FooterComponent'
 import HeaderComponent from './assets/components/HeaderComponent'
 import AboutUsPage from './Pages/AboutUsPage'
+import BlogPage from './Pages/BlogPage'
 import ContactPage from './Pages/ContactPage'
 import ErrorPage from './Pages/ErrorPage'
 import FactoryPage from './Pages/FactoryPage'
@@ -39,6 +40,7 @@ function App() {
           <Route path='factory' element={<FactoryPage />} />
           <Route path='contact' element={<ContactPage />} />
           <Route path='faq' element={<FAQPage />} />
+          <Route path='blog' element={<BlogPage />} />
           <Route path='video' element={<VideoPage />} />
           <Route path='products' element={<ProductPage />} />
           <Route path='products/:categoryName' element={<ProductPage />} />

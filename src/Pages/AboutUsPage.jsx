@@ -1,23 +1,19 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import {  NavLink, useNavigate } from "react-router-dom";
 import { IsActionEvaluate } from "../assets/components/HeaderComponent";
-import { Button } from "@mui/material";
 
 export   const products = [
-  { "to": "capsule-house", "name": "Capsule House" },
-  { "to": "apple-cabin", "name": "Apple Cabin" },
-  { "to": "natural-house", "name": "Natural House" },
-  { "to": "dome-house", "name": "Dome House" },
-  { "to": "model-double", "name": "Model Double" },
-  { "to": "silence-pods", "name": "Silence Pods" }
+  { "to": "/products/capsule-house", "name": "Capsule House" },
+  { "to": "/products/apple-cabin", "name": "Apple Cabin" },
+  { "to": "/products/natural-house", "name": "Natural House" },
+  { "to": "/products/dome-house", "name": "Dome House" },
+  { "to": "/products/model-double", "name": "Model Double" },
+  { "to": "/products/silence-pods", "name": "Silence Pods" }
 ];
 
 
 export function  CategoryComponent () {
 
   const navigate = useNavigate() ;
-
-
-
   return  <div className="bg-white rounded-lg shadow p-6">
       <h2 className="text-blue-600 text-xl font-semibold mb-4">Products</h2>
       <ul className="space-y-3">
@@ -25,14 +21,19 @@ export function  CategoryComponent () {
           <li key={index}
             // 
           className="text-gray-700 hover:text-blue-600 cursor-pointer">
-              <div
-              onClick={()=> {
-                navigate('/products/' + product.to ,  { replace: true } )}}
-                // to={product.to}
+             <NavLink
+                to={product.to}
                 className={(isActive) => IsActionEvaluate(isActive)}
               >
                 {product.name}
-              </div>
+              </NavLink>
+              {/* <div
+              className = {(isActive) => IsActionEvaluate(isActive)}
+              onClick={()=> {
+                navigate(product.to ,  { replace: true } )}}
+              >
+                {product.name}
+              </div> */}
           </li>
         ))}
       </ul>

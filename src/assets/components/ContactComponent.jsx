@@ -3,40 +3,7 @@
 export const ContactComponent = () => {
     return (
       <div className="max-w-4xl mx-auto p-6 space-y-8">
-        {/* Personal Contact Section */}
-        <div className="bg-gray-50 rounded-lg">
-          <h2 className="text-2xl font-semibold p-6 border-b">Contacts</h2>
-          <div className="p-6 space-y-4">
-            <h3 className="text-xl text-gray-600">Mr. Bigbai</h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <div>
-                  <p className="text-gray-500">Job Title:</p>
-                  <p className="text-gray-700">Sales Manager</p>
-                </div>
-                <div>
-                  <p className="text-gray-500">Business Phone:</p>
-                  <p className="text-gray-700">86—18126759566</p>
-                </div>
-                <div>
-                  <p className="text-gray-500">WhatsApp:</p>
-                  <p className="text-gray-700">86—18126759566</p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div>
-                  <p className="text-gray-500">WeChat:</p>
-                  <p className="text-gray-700">86—18126759566</p>
-                </div>
-                <div>
-                  <p className="text-gray-500">Email:</p>
-                  <p className="text-gray-700">info@volferda.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+ 
   
         {/* Company Contact Section */}
         <div className="bg-gray-50 rounded-lg">
@@ -102,6 +69,43 @@ export const ContactComponent = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   <p className="text-gray-500">Fax:</p>
                   <p>86-0757-63211885</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+               {/* Personal Contact Section */}
+               <div className="bg-gray-50 rounded-lg">
+          <h2 className="text-2xl font-semibold p-6 border-b">Contacts</h2>
+          <div className="p-6 space-y-4">
+            <h3 className="text-xl text-gray-600">Mr. Bigbai</h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="space-y-4">
+                <div>
+                  <p className="text-gray-500">Job Title:</p>
+                  <p className="text-gray-700">Sales Manager</p>
+                </div>
+                <div>
+                  <p className="text-gray-500">Business Phone:</p>
+                  <p className="text-gray-700">86—18126759566</p>
+                </div>
+                <div>
+                  <p className="text-gray-500">WhatsApp:</p>
+                  <p className="text-gray-700">86—18126759566</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div>
+                  <p className="text-gray-500">WeChat:</p>
+                  <p className="text-gray-700">86—18126759566</p>
+                </div>
+                <div>
+                  <p className="text-gray-500">Email:</p>
+                  <p className="text-gray-700">info@volferda.com</p>
                 </div>
               </div>
             </div>
