@@ -1,3 +1,5 @@
+import { appInfo } from "../../Data/appInfo"
+
 const bottomArray = [
     {
       "section": "Products",
@@ -57,19 +59,19 @@ const bottomArray = [
           "icon": "location"
         },
         {
-          "text": "8618870949983",
+          "text": appInfo?.companyMobile?? "8618870949983",
           "icon": "whatsapp"
         },
         {
-          "text": "+86-18566028140",
+          "text": appInfo?.companyPhone??"+86-18566028140",
           "icon": "phone"
         },
         {
-          "text": "info@volferda.com",
+          "text": appInfo?.email??"info@volferda.com",
           "icon": "email"
         },
         {
-          "text": "+8618566028140",
+          "text": appInfo?.weChat??"+8618566028140",
           "icon": "wechat"
         }
       ]

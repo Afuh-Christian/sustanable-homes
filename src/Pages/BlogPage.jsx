@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { appInfo } from "../Data/appInfo";
 import { CategoryComponent } from "./AboutUsPage";
 
 export const ContactUsComponent = () => {
@@ -10,15 +11,15 @@ export const ContactUsComponent = () => {
   <div className="space-y-2">
     <a href="tel:8618870949983" className="flex items-center text-blue-600 hover:text-blue-800">
       <span className="mr-2">📱</span>
-      8618870949983
+      {appInfo?.companyMobile?? "8618870949983"}
     </a>
     <a href="tel:+86-18566028140" className="flex items-center text-blue-600 hover:text-blue-800">
       <span className="mr-2">📞</span>
-      +86-18566028140
+      {appInfo?.companyPhone?? "+86-18566028140"}
     </a>
     <a href="mailto:info@volferda.com" className="flex items-center text-blue-600 hover:text-blue-800">
       <span className="mr-2">✉️</span>
-      info@volferda.com
+      {appInfo?.email?? "info@volferda.com"}
     </a>
   </div>
 </div>

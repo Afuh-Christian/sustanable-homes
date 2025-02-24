@@ -2,6 +2,7 @@ import { Mail, Phone } from 'lucide-react';
 import { useState } from 'react';
 import { products } from '../../Pages/AboutUsPage';
 import { NavLink } from 'react-router-dom';
+import { appInfo } from '../../Data/appInfo';
 
 export const IsActionEvaluate = ({ isActive }) => (isActive ? 'text-blue-700' : 'text-gray-800"')
 
@@ -14,17 +15,17 @@ export default function HeaderComponent() {
         <span>{"Designated supplier of the world's top 500 smart houses"}</span>
         <div className="flex items-center gap-4">
           <a href="mailto:info@volferda.com" className="flex items-center gap-1 hover:underline">
-            <Mail size={16} /> info@volferda.com
+            <Mail size={16} /> {appInfo?.email?? "info@volferda.com"}
           </a>
           <a href="tel:+8618566028140" className="flex items-center gap-1 hover:underline">
-            <Phone size={16} /> +86-18566028140
+            <Phone size={16} /> {appInfo?.companyPhone?? "+86-18566028140"}
           </a>
         </div>
       </div>
       <nav className="flex justify-between items-center px-4 py-4 md:px-8  font-semibold">
         <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="Volferda Logo" className="h-10" />
-          <span className="text-xl font-semibold">VOLFERDA</span>
+          <img src={appInfo?.logo} alt={appInfo?.title} className="h-10" />
+          <span className="text-xl font-semibold">{appInfo?.title?? "VOLFERDA"}</span>
           <span className="text-sm text-gray-600">SMART HOUSE INDUSTRY LEADER</span>
         </div>
         <ul className="hidden md:flex gap-6 text-gray-800">
@@ -79,7 +80,7 @@ export default function HeaderComponent() {
           </li>
           {[
           {to: "video" , page:"VIDEO"},
-          {to: "blog" , page:"BLOG"},
+          // {to: "blog" , page:"BLOG"},
           {to: "factory" , page:"FACTORY"},
           {to: "faq" , page:"FAQ"},
           {to: "contact" , page:"CONTACT"},
