@@ -829,9 +829,55 @@
             ]
             
     } ,  
+
+    "product_table" : [
+        { "label": "Product Name", "value": "Apple Cabin" },
+        { "label": "Model", "value": "VL-D3" },
+        { "label": "Size", "value": "First unit: L11.6m * W2.5m * H2.45m, the four units are spliced into two floors, construction area: 134.5 sq ft, number of people: 8-16" },
+        { "label": "Exterior Equipment", "value": "Galvanized steel frame; Fluorocarbon aluminum alloy shell; Insulated, waterproof, and moisture-proof construction; Hollow tempered glass windows; Hollow tempered laminated glass skylight; Stainless steel side-hinged entry door." },
+        { "label": "Interior Equipment", "value": "Integrated modular ceiling & wall; Stone plastic composite floor; Privacy glass door for bathroom; Marble/tile floor for bathroom; Washstand / washbasin / bathroom mirror; Toilet / faucet / shower / floor drain; Whole house lighting system; Whole house plumbing & electrical system; Blackout curtains; Air conditioner; Bar table; Entryway cabinet." },
+        { "label": "Room Control Unit", "value": "Key card switch; Multiple scenario modes; Lights & curtains with intelligent integrated control; Intelligent voice control; Smart lock." }
+      ], 
+
     "designImages" : [
        "/model-double/d3/cap (2).png"
     ] ,
+    "product_details":false
+    } ,
+    
+
+  {
+        "parent" : "/products/model-double" , 
+        "to" : "model-double-d4" , 
+        "header" : {
+            "title" : "Dome House Model D4" , 
+            "image" : "/model-double/d4/cap (2).png" ,
+            "images": [
+                
+                  "/model-double/d4/cap (1).png", 
+                  "/model-double/d4/cap (2).png"
+                            ],
+            "config" : [
+                {
+                    "label" : "Product Details:" , 
+                    "value" : "<p>Place of origin: China</p> <p>Brand Name: VOLFERDA</p> <p>Certification: CE, FCC</p> <p>Model Number: Apple Cabin VL-D4</p> <p><strong>Notice:</strong> support custom kitchen</p>"
+                },
+                {
+                    "label" : "Payment and shipping terms:" , 
+                    "value" : "<p>Minimum order quantity: 1 unit</p> <p>Packaging Details: Film wrapping, foam and wooden box</p> <p>Delivery time: 4-6 weeks after payment</p> <p>Payment terms: T/T in advance</p> <p>Supply capacity: 100-200 units per month</p>"
+                }
+            ]
+            
+    } ,  
+
+    "product_table" : [
+        { "label": "Product Name", "value": "Apple Cabin" },
+        { "label": "Model", "value": "VL-D4" },
+        { "label": "Size", "value": "L5.8m * W2.25m * H2.45m, the two units are spliced into two floors, construction area: 139.9 sq ft, number of people: 4-8" },
+        { "label": "Exterior Equipment", "value": "Galvanized steel frame; Fluorocarbon aluminum alloy shell; Insulated, waterproof, and moisture-proof construction; Hollow tempered glass windows; Hollow tempered laminated glass skylight; Stainless steel side-hinged entry door." },
+        { "label": "Interior Equipment", "value": "Integrated modular ceiling & wall; Stone plastic composite floor; Privacy glass door for bathroom; Marble/tile floor for bathroom; Washstand / washbasin / bathroom mirror; Toilet / faucet / shower / floor drain; Whole house lighting system; Whole house plumbing & electrical system; Blackout curtains; Air conditioner; Bar table; Entryway cabinet." },
+        { "label": "Room Control Unit", "value": "Key card switch; Multiple scenario modes; Lights & curtains with intelligent integrated control; Intelligent voice control; Smart lock." }
+      ], 
     "product_details":false
     } 
     

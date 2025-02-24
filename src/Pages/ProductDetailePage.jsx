@@ -130,6 +130,28 @@ function ProductDetailePage() {
    </div>
    {product?.product_details === true && <ProductDetails/> } 
 
+   {product?.product_table?.length > 0 && 
+   
+   
+
+
+<div className="px-52">
+      <table className="min-w-full bg-white border border-gray-300 rounded-lg shadow-lg">
+        <tbody>
+          {product.product_table?.map((user, index) => (
+            <tr key={index} className="border border-gray-300">
+              <td className="py-3 px-4 border border-gray-300">{user.label}</td>
+              <td className="py-3 px-4 border border-gray-300">{user.value}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+
+
+} 
+
    {product?.product_details_table && ResponsiveTable(product?.product_details_table) } 
 
 
@@ -162,7 +184,7 @@ function ProductDetailePage() {
    {/* <RelatedProducts/> */}
    <div className="p-8 px-52">
         <h2 className="text-xl font-semibold mb-6">RELATED PRODUCTS</h2>
-        <div className="flex flex-row ">
+        <div className="flex flex-row gap-2 ">
           {products.filter(e =>  e.parent === "/products/" + categoryName && e.to !== product.to).map((product) => (
             <div key={product}
             onClick={() => {navigate(`${product.parent}/${product.to}`)}}
