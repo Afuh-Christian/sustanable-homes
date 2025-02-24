@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CategoryComponent } from "./AboutUsPage";
 import { ContactUsComponent } from "./BlogPage";
+import { factory } from "../Data/Factory";
 
 
 
@@ -102,39 +103,57 @@ const FactoryPage = () => {
         <section id="factory-tour" className="space-y-6">
           <h2 className="text-2xl font-semibold">Factory Tour</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img
-              src="/images/capsule-house.jpg"
-              alt="Capsule House Workshop"
+            {factory.factoryTour.map(e => ( <div key={e}><img
+              src={e}
+              alt="factory-tour"
               className="rounded-lg shadow-lg"
-            />
-            <img
-              src="/images/apple-cabin.jpg"
-              alt="Apple Cabin Workshop"
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-          <div className="flex justify-between text-gray-600 text-sm">
-            <p>Capsule House Workshop</p>
-            <p>Apple Cabin Workshop</p>
+            /></div>))}
+           
+          
           </div>
         </section>
 
         {/* Product Line Section */}
         <section id="product-line" className="space-y-6">
           <h2 className="text-2xl font-semibold">Product Line</h2>
-          <p className="text-gray-700">Details about the product line go here...</p>
+          <img
+              src={"capsule-house/v8/cap2.png"}
+              alt="factory-tour"
+              className="rounded-lg shadow-lg"
+            />
+          <p className="text-gray-700">The founder of the company, who has been working in the field of mobile housing for 15 years, has profound thinking and understanding of metal structures, metal
+          materials, containers, and security equipment.</p>
         </section>
 
         {/* Sample Room Section */}
         <section id="sample-room" className="space-y-6">
           <h2 className="text-2xl font-semibold">Sample Room</h2>
-          <p className="text-gray-700">Information about sample rooms...</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {factory.singleRoom.map(e => ( <div key={e}><img
+              src={e}
+             
+              alt="Single room"
+              className="rounded-lg shadow-lg"
+            /></div>))}
+          </div>
         </section>
 
         {/* R & D Section */}
         <section id="r-and-d" className="space-y-6">
           <h2 className="text-2xl font-semibold">R & D</h2>
-          <p className="text-gray-700">Research and Development insights...</p>
+          <img
+              src={"factory/s-r/rd (2).png"}
+              alt="factory-tour"
+              className="rounded-lg shadow-lg"
+            />
+          <h4 className="text-red-600">Production workshop</h4>
+          <p className="text-gray-600">The founder of the factory, who has been working in the field of mobile housing for 15 years, has profound thinking and understanding of metal
+          structures, metal materials, containers, and security equipment.</p>
+<img
+              src={"factory/s-r/rd (1).png"}
+              alt="factory-tour"
+              className="rounded-lg shadow-lg"
+            />
         </section>
       </div>
     </div>

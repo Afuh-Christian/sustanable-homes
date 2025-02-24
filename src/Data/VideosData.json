@@ -2,73 +2,73 @@
     {
         "title": "Volferda Factory Tour", 
         "youtube": "https://youtu.be/7LbcrTdZt2I",
-        "image": "",
+        "image": "/capsule-house/v8/cap1.png",
         "to": "volferda-factory-tour"
     },
     {
         "title": "Volferda Camp Showroom Tour", 
         "youtube": "https://youtu.be/R335rij9oe8",
-        "image": "",
+        "image": "/silence-pods/m/cap (2).png",
         "to": "volferda-camp-showroom-tour"
     },
     {
         "title": "Volferda Capsule-House E8 without balcony Tour", 
         "youtube": "https://youtu.be/b65u7dN68pQ",
-        "image": "",
+        "image": "/capsule-house/v6/cap (1).png",
         "to": "volferda-capsule-house-e8-without-balcony-tour"
     },
     {
         "title": "Volferda Capsule House E8 with balcony Tour", 
         "youtube": "https://youtu.be/pJYi8FJlW7U",
-        "image": "",
+        "image": "/capsule-house/v6/cap (3).png",
         "to": "volferda-capsule-house-e8-with-balcony-tour"
     },
     {
         "title": "Volferda Apple Cabin A1 5.8m Tour", 
         "youtube": "https://youtu.be/p7EMauO9tkY",
-        "image": "",
+        "image": "/capsule-house/d8/cap (1).png",
         "to": "volferda-apple-cabin-a1-5-8m-tour"
     },
     {
         "title": "Volferda Apple Cabin A1 8.5m Tour", 
         "youtube": "https://youtu.be/ulXR0zi0Y2k",
-        "image": "",
+        "image": "/capsule-house/d8/cap (4).png",
         "to": "volferda-apple-cabin-a1-8-5m-tour"
     },
     {
         "title": "Volferda Apple Cabin A2 11.5m Tour", 
         "youtube": "https://youtu.be/tW62-7jaQME",
-        "image": "",
+        "image": "/apple-cabin/a1/cap (2).png",
         "to": "volferda-apple-cabin-a2-11-5m-tour"
     },
     {
         "title": "Volferda Apple Cabin D1 Tour", 
         "youtube": "https://youtu.be/mv9lJyoCHPg",
-        "image": "",
+        "image": "/apple-cabin/a1/cap (4).png",
         "to": "volferda-apple-cabin-d1-tour"
     },
     {
         "title": "Volferda Apple Cabin A1 8.5m Tour", 
         "youtube": "https://youtu.be/atgvOemyg8I",
-        "image": "",
+        "image": "/apple-cabin/a1/cap (5).png",
         "to": "volferda-apple-cabin-a1-8-5m-tour"
     },
     {
         "title": "Volferda Apple Cabin A2 8.5m Tour", 
         "youtube": "https://youtu.be/ofZ907Q0QmM",
-        "image": "",
+        "image": "/apple-cabin/a1/cap (1).png",
         "to": "volferda-apple-cabin-a2-8-5m-tour"
     },
     {
         "title": "Volferda Capsule House E6 without balcony Tour", 
         "youtube": "https://youtu.be/TNqqHv6nowc",
-        "image": "",
+        "image": "/apple-cabin/a2/cap (3).png",
         "to": "volferda-capsule-house-e6-without-balcony-tour"
     },
     {
         "title": "VOLOERDA House 3D Modeling", 
         "youtube": "https://youtu.be/BdV9mHtgm08",
-        "image": "",
+        "image": "/natural-house/n1/cap (1).png",
         "to": "voloerda-house-3d-modeling"
     }
 ]
