@@ -92,6 +92,11 @@ function ProductDetailePage() {
       >
         </div>}
 
+        {product?.header?.propsAlter?.map(e => (<div key = {e}>
+              <div className="font-semibold text-blue-500">{e.label + " : " }</div>
+              {e.value?.map(el => <div className="py-1" key={el}>{el}</div>)}
+              </div>))}
+
         {product?.header?.config && product?.header?.config.map(e => (
             <div key={e}>
             <h2 className="text-xl font-semibold mb-2">{e.label}</h2>
@@ -123,7 +128,8 @@ function ProductDetailePage() {
 
 
    </div>
-   {product?.product_details && <ProductDetails/> } 
+   {product?.product_details === true && <ProductDetails/> } 
+
    {product?.product_details_table && ResponsiveTable(product?.product_details_table) } 
 
 
